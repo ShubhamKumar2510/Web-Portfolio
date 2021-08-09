@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(250, 250,250);
+  }
+  
+  .parent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+ .m_l_20{
+    margin-left: 20px !important;
+ }
+  .image {
+    width: 370px;
+    margin-top: 50px;
+  }
+
+  .Chart_container{
+      display: block !important;
+      justify-content: center !important;
+      text-align: center !important;
+  }
+
+  .chartContainer{
+      display: flex !important;
+      justify-content: center !important;
+      margin-left: 300px !important;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
+  
