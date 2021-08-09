@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Web-Portfolio/static/css/main.8e0f5736.chunk.css",
-    "main.js": "/Web-Portfolio/static/js/main.cef9b587.chunk.js",
-    "main.js.map": "/Web-Portfolio/static/js/main.cef9b587.chunk.js.map",
+    "main.css": "/Web-Portfolio/static/css/main.7abc412c.chunk.css",
+    "main.js": "/Web-Portfolio/static/js/main.d9f1133e.chunk.js",
+    "main.js.map": "/Web-Portfolio/static/js/main.d9f1133e.chunk.js.map",
     "runtime-main.js": "/Web-Portfolio/static/js/runtime-main.5b7823c4.js",
     "runtime-main.js.map": "/Web-Portfolio/static/js/runtime-main.5b7823c4.js.map",
     "static/css/2.85f702b2.chunk.css": "/Web-Portfolio/static/css/2.85f702b2.chunk.css",
-    "static/js/2.0ab51ab0.chunk.js": "/Web-Portfolio/static/js/2.0ab51ab0.chunk.js",
-    "static/js/2.0ab51ab0.chunk.js.map": "/Web-Portfolio/static/js/2.0ab51ab0.chunk.js.map",
+    "static/js/2.40acbe78.chunk.js": "/Web-Portfolio/static/js/2.40acbe78.chunk.js",
+    "static/js/2.40acbe78.chunk.js.map": "/Web-Portfolio/static/js/2.40acbe78.chunk.js.map",
     "static/js/3.4a8f909e.chunk.js": "/Web-Portfolio/static/js/3.4a8f909e.chunk.js",
     "static/js/3.4a8f909e.chunk.js.map": "/Web-Portfolio/static/js/3.4a8f909e.chunk.js.map",
     "index.html": "/Web-Portfolio/index.html",
     "static/css/2.85f702b2.chunk.css.map": "/Web-Portfolio/static/css/2.85f702b2.chunk.css.map",
-    "static/css/main.8e0f5736.chunk.css.map": "/Web-Portfolio/static/css/main.8e0f5736.chunk.css.map",
-    "static/js/2.0ab51ab0.chunk.js.LICENSE.txt": "/Web-Portfolio/static/js/2.0ab51ab0.chunk.js.LICENSE.txt",
+    "static/css/main.7abc412c.chunk.css.map": "/Web-Portfolio/static/css/main.7abc412c.chunk.css.map",
+    "static/js/2.40acbe78.chunk.js.LICENSE.txt": "/Web-Portfolio/static/js/2.40acbe78.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Web-Portfolio/static/media/bg.bf33d688.jpg",
     "static/media/font-awesome.min.css": "/Web-Portfolio/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/gallery.css": "/Web-Portfolio/static/media/img1.238ab77f.jpg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.5b7823c4.js",
     "static/css/2.85f702b2.chunk.css",
-    "static/js/2.0ab51ab0.chunk.js",
-    "static/css/main.8e0f5736.chunk.css",
-    "static/js/main.cef9b587.chunk.js"
+    "static/js/2.40acbe78.chunk.js",
+    "static/css/main.7abc412c.chunk.css",
+    "static/js/main.d9f1133e.chunk.js"
   ]
 }
