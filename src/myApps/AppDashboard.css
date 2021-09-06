@@ -1,55 +1,57 @@
-
-.body{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
+#root {
+  overflow-y: scroll;
 }
 
-.card-container{
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 40px 0;
-    border-radius: 15px;
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
 }
 
-.name{
-    display: none;
+.card-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+  border-radius: 15px;
 }
 
-.barIcon .fa-bar-chart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    font-size: 60px;
-    color: beige;
-    
+.name {
+  display: none;
 }
 
-
-.questionIcon .fa-question{
-    margin-top: 100px;
-    margin-left: 30%;
-    font-size: 200px;
-    padding-right: 10px;
-    border-radius: 85px;
-    color: rgb(173, 173, 166);
-    animation: border-flicker 5s alternate infinite;
-}
-
-.content .fa-cloud{
+.barIcon .fa-bar-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
-  margin-left: 20%;
+  font-size: 60px;
+  color: beige;
+}
+
+.questionIcon .fa-question {
+  margin-top: 100px;
+  margin-left: 30%;
+  font-size: 200px;
+  padding-right: 10px;
+  border-radius: 85px;
+  color: rgb(173, 173, 166);
+  animation: border-flicker 5s alternate infinite;
+}
+
+.content .fa-cloud {
+  margin-top: 66px;
+  margin-left: 28%;
   padding-right: 10px;
   color: rgb(173, 173, 166);
-  font-size: 150px;
+  font-size: 113px;
 }
+
 /* .fa-question {
     
   background-color: Transparent;
@@ -62,78 +64,82 @@
 } */
 
 @keyframes border-flicker {
-    0% {
-      opacity:0.1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(144, 193, 233, 0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(144, 193, 233, 0.73);
-  box-shadow: 0px 0px 78px 4px rgba(144, 193, 233, 0.73);
-    }
-    2% {
-      opacity:0.3;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
-  box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
-    }
-    4% {
-      opacity:0.5;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
-  box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
-    }
-    
-    8% {
-      opacity:0.8;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(234, 240, 245, 0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(234, 240, 245, 0.73);
-  box-shadow: 0px 0px 78px 4px rgba(234, 240, 245, 0.73);
-    }
-    70% {
-      opacity:0.5;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
-  box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
-    }
-    100% {
-      opacity:0.1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
-  box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
-    }
+  0% {
+    opacity: 0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(144, 193, 233, 0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(144, 193, 233, 0.73);
+    box-shadow: 0px 0px 78px 4px rgba(144, 193, 233, 0.73);
+  }
+  2% {
+    opacity: 0.3;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
+    box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
+  }
+  4% {
+    opacity: 0.5;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
+    box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
   }
 
-.barIcon .AppName{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 20px;
-    color: beige;
+  8% {
+    opacity: 0.8;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(234, 240, 245, 0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(234, 240, 245, 0.73);
+    box-shadow: 0px 0px 78px 4px rgba(234, 240, 245, 0.73);
+  }
+  70% {
+    opacity: 0.5;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
+    box-shadow: 0px 0px 78px 4px rgba(159, 235, 245, 0.73);
+  }
+  100% {
+    opacity: 0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
+    box-shadow: 0px 0px 78px 4px rgba(185, 191, 197, 0.73);
+  }
 }
 
-.card-container .card{
-    position: relative;
-    min-width: 320px;
-    height: 440px;
-    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
-    inset -5px -5px 15px rgba(255,255,255,0.1),
-    5px 5px 15px rgba(0,0,0,0.3),
-    -5px -5px 15px rgba(255,255,255,0.1);
-    border-radius: 15px !important;
-    margin: 30px;
+.barIcon .AppName {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: beige;
+}
+.content .AppName {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: beige;
 }
 
-.card-container .card .box{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    bottom: 20px;
-    right: 20px;
-    background: #2a2b2f !important;
-    border:2px solid #1e1f23 !important;
-  
+.card-container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.9),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px !important;
+  margin: 30px;
 }
 
-.card-container .card .box:hover{
-  transform:translateY(-50px);
-     box-shadow: 0 40px 70px rgb(0 0 0 / 50%);
-     
+.card-container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  background: #2a2b2f !important;
+  border: 2px solid #1e1f23 !important;
+}
+
+.card-container .card .box:hover {
+  transform: translateY(-50px);
+  box-shadow: 0 40px 70px rgb(0 0 0 / 50%);
 }

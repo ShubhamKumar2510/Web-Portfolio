@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { fetchWeather } from "./Featchweather";
+import styles from "./Weather.css";
 
 function dashboardHandler(props) {
-  props.history.push("/chart");
+  console.log(props);
 }
 
-const WeatherReport = () => {
+const WeatherReport = ({ navigation }) => {
+  console.log(navigation);
+
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
 
@@ -25,14 +28,12 @@ const WeatherReport = () => {
           onClick={dashboardHandler}
           style={{ marginLeft: "30px", cursor: "pointer" }}
         >
-          <h3 className="logo">
-            DASH<span>Board</span>
-          </h3>
+          <h3 className="logo">{/* DASH<span>Board</span> */}</h3>
         </div>
         <input
           type="text"
           className="search"
-          placeholder="Search..."
+          placeholder="Enter the city name..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={search}

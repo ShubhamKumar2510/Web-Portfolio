@@ -10,7 +10,7 @@ import styles from './ChartComponents.css';
 class ChartComponent extends Component {
 
   state = {
-    data: {country: "country"},
+    data: {},
     country: '',
   }
   async componentDidMount() {
@@ -21,7 +21,7 @@ class ChartComponent extends Component {
 
   handleCountryChange = async (country) => {
     const data = await fetchData(country);
-    this.setState({ ...data, country: country });
+    this.setState({ data, country: country });
   }
 
   
@@ -32,13 +32,13 @@ class ChartComponent extends Component {
 
   render() {
     const { data, country } = this.state;
+    console.log(this.state.data);
 
     return (
       <React.Fragment>
         <div onClick={this.dashboardHandler} style={{marginLeft : "30px", cursor:"pointer"}}><h3 className="logo">DASH<span>Board</span></h3></div>
       
       <div className={styles.parent}>
-        {/* <img className={styles.image} src={image} alt="COVID-19" /> */}
         <div>
           <Cards data={data} />
         </div>
@@ -51,15 +51,3 @@ class ChartComponent extends Component {
 }
  
 export default ChartComponent;
-
-
-// import React, { Component } from 'react';
-
-// class ChartComponent extends Component {
-//   state = {  }
-//   render() { 
-//     return ( <h1>Shubham</h1> );
-//   }
-// }
- 
-// export default  ChartComponent;

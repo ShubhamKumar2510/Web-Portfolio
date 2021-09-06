@@ -24,6 +24,7 @@ class AppDashboard extends Component {
   onClickHome = () => {
     const container = document.querySelector(".container");
     container.classList.toggle("active");
+    console.log(this.props);
     setTimeout(() => {
       this.props.history.push("/home");
     }, 300);
@@ -93,7 +94,7 @@ class AppDashboard extends Component {
                         <div className="content">
                           <h1 className="name">My Covid App</h1>
                           <div className="barIcon">
-                            <i class="fa fa-bar-chart"></i>
+                            <i className="fa fa-bar-chart"></i>
                             <p className="AppName">CO-Track</p>
                           </div>
                         </div>
@@ -102,7 +103,11 @@ class AppDashboard extends Component {
                     <div className="card">
                       <div className="box" onClick={this.weatherHandler}>
                         <div className="content">
-                          <i class="fa fa-cloud"></i>
+                          <h1 className="name">My Weather App</h1>
+                          <div className="barIcon">
+                            <i className="fa fa-cloud"></i>
+                            <p className="AppName">Weather</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -110,7 +115,7 @@ class AppDashboard extends Component {
                       <div className="box" onClick={this.mistryHandler}>
                         <div className="content">
                           <div className="questionIcon">
-                            <i class="fa fa-question"></i>
+                            <i className="fa fa-question"></i>
                           </div>
                         </div>
                       </div>
